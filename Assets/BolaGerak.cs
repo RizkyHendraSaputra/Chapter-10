@@ -11,36 +11,45 @@ public class BolaGerak : MonoBehaviour
 
     // PRIVATE
     private Rigidbody2D rigibod2d;
+    private Vector2 trajectory;
 
-
-    public void Start()
+     void Start()
     {
+        trajectory = transform.position;
         rigibod2d = GetComponent<Rigidbody2D>();
         gameRestart();
     }
-    public void BolaRest()
+     void BolaRest()
     {
         transform.position = Vector2.zero;
         rigibod2d.velocity = Vector2.zero;
     }
-    public void bolaBergerak()
+     void bolaBergerak()
     {
         float yRandomInitialForce = Random.Range(-Y, Y);
-        float DirectionRandom = Random.Range(0, 3);
+        float DirectionRandom = Random.Range(0, 2);
         if(DirectionRandom < 1.0f)
         {
-            rigibod2d.AddForce(new Vector2(-X, Y));
+            rigibod2d.AddForce(new Vector2(-X, yRandomInitialForce));
 
         }
         else
         {
-            rigibod2d.AddForce(new Vector2(X, Y));
+            rigibod2d.AddForce(new Vector2(X, yRandomInitialForce));
         }
     }
-    public void gameRestart()
+     void gameRestart()
     {
         BolaRest();
         Invoke("bolaBergerak", 2);
     }
 
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        trajectory = transform.position;
+    }
+    public Vector2 trajectory1
+    {
+        get { return trajectory; }
+    }
 }
