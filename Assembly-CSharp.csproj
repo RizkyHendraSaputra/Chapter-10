@@ -64,9 +64,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BolaGerak.cs" />
-    <Compile Include="Assets\BolaGerakManual.cs" />
-    <Compile Include="Assets\BolaToouch.cs" />
+    <Compile Include="Assets\Script\BolaGerak.cs" />
+    <Compile Include="Assets\Script\BolaGerakManual.cs" />
+    <Compile Include="Assets\Script\BolaToouch.cs" />
+    <Compile Include="Assets\Script\Respawn.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Ch10/Chapter-10/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
