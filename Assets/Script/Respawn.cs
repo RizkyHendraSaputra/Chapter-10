@@ -27,7 +27,7 @@ public class Respawn : MonoBehaviour
     }
     IEnumerator ToSpawnTrue()
     {
-        yield return new WaitForSeconds(0.75f);
+        yield return new WaitForSeconds(3f);
         ToSpawn = true;
     }
 }
