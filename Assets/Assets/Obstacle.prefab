@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 8064455334032952785}
   - component: {fileID: 32697084846110434}
   - component: {fileID: 8447220083477422554}
+  - component: {fileID: 4442984565037073590}
   m_Layer: 0
   m_Name: Obstacle Batu
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +43,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.13032901, y: -0.5398445}
@@ -106,6 +107,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4442984565037073590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2814865466368148778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bf978f9d12f5446b7ef30ae725a2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boxValue: 1
 --- !u!1 &3843894842672265308
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,9 +131,10 @@ GameObject:
   - component: {fileID: 7597798585791904455}
   - component: {fileID: 7077299243815036776}
   - component: {fileID: 3120931616287903785}
+  - component: {fileID: 2840508333142540968}
   m_Layer: 0
   m_Name: Obstacle Batu Lebar
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -148,7 +163,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.3881595, y: 0.12601185}
@@ -212,6 +227,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2840508333142540968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3843894842672265308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bf978f9d12f5446b7ef30ae725a2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boxValue: 1
 --- !u!1 &4516030012107693583
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,9 +251,10 @@ GameObject:
   - component: {fileID: 6582575413715882678}
   - component: {fileID: 2808102161289367103}
   - component: {fileID: 2590198628288403911}
+  - component: {fileID: 7097847467320594844}
   m_Layer: 0
   m_Name: Obstacle Batu Ijo
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -254,7 +283,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.37062067, y: 0.14784813}
@@ -318,6 +347,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7097847467320594844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4516030012107693583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bf978f9d12f5446b7ef30ae725a2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boxValue: 1
 --- !u!1 &6573100866224055105
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,9 +371,10 @@ GameObject:
   - component: {fileID: 3005163094941030382}
   - component: {fileID: 4030767111751718401}
   - component: {fileID: 443762146698692062}
+  - component: {fileID: 7272233142488208563}
   m_Layer: 0
   m_Name: Obstacle Batu Biru
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -360,7 +403,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.130329, y: -0.5398445}
@@ -424,6 +467,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7272233142488208563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6573100866224055105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bf978f9d12f5446b7ef30ae725a2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boxValue: 1
 --- !u!1 &7783431545943744843
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,9 +489,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5408321431189869457}
+  - component: {fileID: 7179651460326718852}
   m_Layer: 0
   m_Name: Obstacle
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -458,3 +515,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &7179651460326718852
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7783431545943744843}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5

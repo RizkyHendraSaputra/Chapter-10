@@ -23,7 +23,14 @@ public class BolaGerakManual : MonoBehaviour
         gerak.y = Input.GetAxisRaw("Vertical");
         
     }
-     void FixedUpdate()
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Obstacle"))
+        {
+            Destroy(collision.gameObject);
+        }
+    }
+    void FixedUpdate()
     {
         rigidbod2d.MovePosition(rigidbod2d.position + gerak * gerakkecepatanbola * Time.fixedDeltaTime);
     }
