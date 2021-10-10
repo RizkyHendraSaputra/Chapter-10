@@ -1,8 +1,15 @@
 
+<<<<<<< Updated upstream
 === Sat Oct  9 12:31:57 2021
 
 Packages were changed.
 Update Mode: mergeDefaultDependencies
+=======
+=== Sun Oct 10 20:24:45 2021
+
+Packages were changed.
+Update Mode: resetToDefaultDependencies
+>>>>>>> Stashed changes
 
 The following packages were added:
   com.unity.analytics@3.2.2
