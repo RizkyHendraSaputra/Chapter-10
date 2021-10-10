@@ -5,7 +5,10 @@ using UnityEngine;
 public class Respawn : MonoBehaviour
 {
     public bool ToSpawn = true;
-    public GameObject Object;
+    public GameObject Planet1;
+    public GameObject Planet2;
+    public GameObject Planet3;
+    public GameObject Planet4;
     public Transform[] Posisi;
     public Transform Lokasi;
     
@@ -20,9 +23,10 @@ public class Respawn : MonoBehaviour
         Lokasi = Posisi[Random.Range(0, Posisi.Length)];
         if(ToSpawn == true)
         {
-            Instantiate(Object, Lokasi);
+            Instantiate(Planet1, Lokasi);
             ToSpawn = false;
             StartCoroutine(ToSpawnTrue());
+           
         }
     }
     IEnumerator ToSpawnTrue()

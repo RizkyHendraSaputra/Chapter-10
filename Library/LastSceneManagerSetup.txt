@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/Scenes/Problem 1 Chapter 10.unity
   isLoaded: 1
   isActive: 1

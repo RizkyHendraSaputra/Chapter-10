@@ -30,6 +30,7 @@ public class BolaGerakManual : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+
     void FixedUpdate()
     {
         rigidbod2d.MovePosition(rigidbod2d.position + gerak * gerakkecepatanbola * Time.fixedDeltaTime);
